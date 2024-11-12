@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: gray;
+    width: max-content;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.533);
+    background-color: rgba(0, 0, 0, 0.742);
+    backdrop-filter: blur(5px);
+
+    a {
+        color: black;
+        background-color: white;
+        border-radius: 40px;
+        padding: 10px;
+        text-decoration: none;
+        
+    }
+}
+
+.header {
+    position: fixed;
+    top: 20px;
+    transform:translateY(-50%);
+    left: 50%;
+}
+
